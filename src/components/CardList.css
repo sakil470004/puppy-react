@@ -5,6 +5,7 @@
     border: 1px solid black;
     height: 80vh;
     display: grid;
+    
     /* gap : 20px; */
     /* this line is very inportant */
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));

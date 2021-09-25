@@ -5,6 +5,7 @@ import Scroll from '../components/Scroll';
 import './App.css'
 
 
+
 class App extends Component {
     //constructor need must becouse we need state data to store our work
     constructor() {
@@ -24,6 +25,11 @@ class App extends Component {
                 .then(users => {this.setState({ robots: users })
 
             });
+
+        //sakil:i hard coded her e . becouse i wand to think about user
+    //    let users=['Sakil', 'Rahat','Nayeem','Tareq','Habib','Tanbir','Emam','Shofiq','Mynul','Saqura','Narutto','Asta','Asif','Irafan','Rabbi','Mahfuz'];
+        // this.setState({ robots: Users });
+
     }
 
     // every time searchChange we update the seachfield through the function
@@ -48,7 +54,7 @@ class App extends Component {
         } else {
             return (
                 <div className='app-div' >
-                    <h1>Robo Frinds</h1>
+                    <h1>Puppy</h1>
                     {/* pass the data in searchBox */}
                     <SearchBox searchChange={this.onSearchChange} />
                     {/* fix the all card by giving a list from fillterRobots*/}

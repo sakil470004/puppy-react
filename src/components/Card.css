@@ -17,9 +17,13 @@
 }
 
 .background-div h2 {
-    font-family: 'SEGA LOGO FONT';
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 200;
     transition: all 0.2s linear;
+    /* for content center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .background-div h2:hover {
